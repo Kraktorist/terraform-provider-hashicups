@@ -75,7 +75,7 @@ func providerConfigure(ctx context.Context, d *schema.ResourceData) (interface{}
 	if err != nil {
 		diags = append(diags, diag.Diagnostic{
 			Severity: diag.Error,
-			Summary:  "Unable to create HashiCups client",
+			Summary:  "Unable to create HashiCups  client",
 			Detail:   "Unable to create anonymous HashiCups client",
 		})
 		return nil, diags
